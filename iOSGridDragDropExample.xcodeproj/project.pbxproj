@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2CAAF6762B4BCA57008CAED2 /* iOSGridDragDropExample.git.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSGridDragDropExample.git.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CAAF6762B4BCA57008CAED2 /* iOSGridDragDropExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSGridDragDropExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CAAF6792B4BCA57008CAED2 /* iOSGridDragDropExample_gitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSGridDragDropExample_gitApp.swift; sourceTree = "<group>"; };
 		2CAAF67B2B4BCA57008CAED2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2CAAF67D2B4BCA5A008CAED2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		2CAAF6772B4BCA57008CAED2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2CAAF6762B4BCA57008CAED2 /* iOSGridDragDropExample.git.app */,
+				2CAAF6762B4BCA57008CAED2 /* iOSGridDragDropExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,9 +73,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2CAAF6752B4BCA57008CAED2 /* iOSGridDragDropExample.git */ = {
+		2CAAF6752B4BCA57008CAED2 /* iOSGridDragDropExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2CAAF6842B4BCA5A008CAED2 /* Build configuration list for PBXNativeTarget "iOSGridDragDropExample.git" */;
+			buildConfigurationList = 2CAAF6842B4BCA5A008CAED2 /* Build configuration list for PBXNativeTarget "iOSGridDragDropExample" */;
 			buildPhases = (
 				2CAAF6722B4BCA57008CAED2 /* Sources */,
 				2CAAF6732B4BCA57008CAED2 /* Frameworks */,
@@ -85,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = iOSGridDragDropExample.git;
+			name = iOSGridDragDropExample;
 			productName = iOSGridDragDropExample.git;
-			productReference = 2CAAF6762B4BCA57008CAED2 /* iOSGridDragDropExample.git.app */;
+			productReference = 2CAAF6762B4BCA57008CAED2 /* iOSGridDragDropExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -118,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2CAAF6752B4BCA57008CAED2 /* iOSGridDragDropExample.git */,
+				2CAAF6752B4BCA57008CAED2 /* iOSGridDragDropExample */,
 			);
 		};
 /* End PBXProject section */
@@ -275,7 +275,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"iOSGridDragDropExample.git/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"iOSGridDragDropExample/Preview Content\"";
 				DEVELOPMENT_TEAM = Q5YYY27YSF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -289,7 +289,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.iOSGridDragDropExample-git";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.iOSGridDragDropExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -304,7 +304,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"iOSGridDragDropExample.git/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"iOSGridDragDropExample/Preview Content\"";
 				DEVELOPMENT_TEAM = Q5YYY27YSF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -318,7 +318,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.iOSGridDragDropExample-git";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.iOSGridDragDropExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -338,7 +338,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2CAAF6842B4BCA5A008CAED2 /* Build configuration list for PBXNativeTarget "iOSGridDragDropExample.git" */ = {
+		2CAAF6842B4BCA5A008CAED2 /* Build configuration list for PBXNativeTarget "iOSGridDragDropExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2CAAF6852B4BCA5A008CAED2 /* Debug */,
